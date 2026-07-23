@@ -10,5 +10,6 @@ export default defineConfig({
   use: {
     headless: true,
     browserName: 'chromium',
+    baseURL: 'https://my.saleshandy.com', // Set the base URL here
   },
 });
